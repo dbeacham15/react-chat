@@ -1,0 +1,35 @@
+.chat-cell {
+    border-bottom: solid 1px #eaeaea;
+    cursor: pointer;
+    display: flex;
+}
+
+.chat-cell--active {
+    background-color: #0094D9;
+    color: #fff;
+}
+
+.chat-cell__profile {
+    width: 70px;
+}
+
+.chat-cell__content {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chat-cell__title {
+    font-size: 12px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.chat-cell__message {
+    font-size: 12px;
+    margin: 4px 0 0;
+}
+
+.chat-cell__profile > svg {
+    width: 60px;   
+}

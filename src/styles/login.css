@@ -1,0 +1,7 @@
+.login-form > label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,45 @@
+.chat {
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel {
+    border-right: solid 1px #eaeaea;
+    width: 250px;
+}
+
+.right-panel {
+    padding: 40px 40px 0;
+    width: calc(100% - 250px);
+}
+
+.right-panel__header {
+    align-items: center;
+    border-bottom: solid 1px #eaeaea;
+    display: flex;
+    height: 40px;
+}
+
+.right-panel__header > label {
+    flex-basis: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.right-panel__header > svg {
+    cursor: pointer;
+    height: 24px;
+    margin-right: 8px;
+    transition: fill 200ms;
+    width: 24px;
+}
+
+.right-panel__header > svg:hover {
+    fill: #a3a3a3;
+}
+
+.chat-window {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
